@@ -4,15 +4,42 @@
 <HEAD>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <TITLE>JOUR 7800 Web page Example </TITLE>
+<style>
+.chart iframe{
+margin-left: 800px;
+
+}
+
+h1 {
+text-align: center;
+}
+
+li{
+	text-align:center;
+	list-style-type: none;
+
+}
+H3 {
+text-align: right;
+margin-right: 300px;
+text-decoration: none;
+
+}
+
+table {
+background-color: yellow;
+}
+</style>
+
 <BODY>
 <body style="background-color: pink">
 <img src="http://www.grady.uga.edu/medicaljournalism/img/students/Bailey.jpg">
-<p><p style="text-align: left"> 
+<p style="text-align: left"> 
 They call me April. I am graduating in May with a master's in health and medical journalism. This website was made
 for my Data Journalism class where I learned how to do basic HTML/CSS coding, how to clean up data in Excel, 
 and that JavaScript was my new enemy. Below are examples of what I can do.
 </p>
-<h3 style="text-align: center">Old Page</h3><a href= " "</a>
+<a href= "scratch.html"><h3 style="text-align: center">Old Page</h3></a>
 <table border="1px">
             <thead>
                 <tr>
@@ -31,11 +58,12 @@ and that JavaScript was my new enemy. Below are examples of what I can do.
                 <td>Now I'm happy</td>
             </tr>
         </table>
-<h1 style="color: green; font-size: 16px; text-align: center">Links to Health Datasets</h1>
+        
+<h1>Links to Health Datasets</h1>
 	<ul>
-	<a href="http://www.ers.usda.gov/data-products/food-security-in-the-united-states.aspx#.U2cnLKJmPDQ"</a><h3 style="text-align: center; font-size: 12">Food Security in the U.S.</h3></li>
-	<a href= "http://www.commonwealthfund.org/Publications/Fund-Reports/2014/Apr/2014-State-Scorecard.aspx"</a><h3 style="text-align: center; font-size: 12">Health Scorecard by State</h3></li>
-	<a href="https://data.medicare.gov/data/hospital-compare/Timely%20%26%20Effective%20Care"</a><h3 style="text-align: center; font-size: 12">Hospital Comparison</h3></li>
+	<li><a href="http://www.ers.usda.gov/data-products/food-security-in-the-united-states.aspx#.U2cnLKJmPDQ"</a>Food Security in the U.S.</li>
+	<li><a href= "http://www.commonwealthfund.org/Publications/Fund-Reports/2014/Apr/2014-State-Scorecard.aspx"</a>Health Scorecard by State</li>
+	<li><a href="https://data.medicare.gov/data/hospital-compare/Timely%20%26%20Effective%20Care">Hospital Comparison</a></li>
 	</ul>
 
 <p>This map was made using
@@ -45,8 +73,11 @@ dialysis clinics in Georgia. </p>
 
 <iframe width="500" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col8+from+1MDhnMSSLPHNJOcTR8pNSlA8CXfrcO9WtgoQ6G25x&amp;viz=MAP&amp;h=false&amp;lat=33.80689138856341&amp;lng=-85.1776622619629&amp;t=1&amp;z=6&amp;l=col8&amp;y=4&amp;tmplt=6&amp;hml=ONE_COL_LAT_LNG"></iframe>
 
+<div class="chart">
+<h3>Final Project</h3>
+<iframe width="800" height="600" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2%2C+col3%2C+col4%2C+col5%2C+col6%2C+col7%2C+col8%2C+col9%2C+col10+from+1lXNa52bINoFJeawAMpth9NiJb9tdoKtm9RZVnuev+order+by+col1+asc+limit+10&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22logScale%22%3Afalse%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22logScale%22%3Afalse%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%2C+%22title%22%3A%22Year%22%7D&amp;gco_legend=right&amp;gco_title=Residency+Matches&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%23ff0000%22%7D%2C+%221%22%3A%7B%22color%22%3A%22%230000ff%22%7D%2C+%222%22%3A%7B%22color%22%3A%22%239900ff%22%7D%2C+%223%22%3A%7B%22color%22%3A%22%23a64d79%22%7D%2C+%224%22%3A%7B%22color%22%3A%22%23999999%22%7D%2C+%225%22%3A%7B%22color%22%3A%22%23000000%22%7D%2C+%226%22%3A%7B%22color%22%3A%22%23ff9900%22%7D%2C+%227%22%3A%7B%22color%22%3A%22%23ffff00%22%7D%2C+%228%22%3A%7B%22color%22%3A%22%2300ff00%22%7D%2C+%229%22%3A%7B%22color%22%3A%22%2300ffff%22%7D%7D&amp;width=800&amp;height=600"></iframe>
+</div>
+<p>Story will go here</p>
 
-<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2%2C+col3%2C+col4%2C+col5%2C+col6%2C+col7%2C+col8%2C+col9%2C+col10+from+1lXNa52bINoFJeawAMpth9NiJb9tdoKtm9RZVnuev+order+by+col1+asc+limit+10&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22logScale%22%3Afalse%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22logScale%22%3Afalse%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%2C+%22title%22%3A%22Year%22%7D&amp;gco_legend=right&amp;gco_title=Residency+Matches&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%23ff0000%22%7D%2C+%221%22%3A%7B%22color%22%3A%22%230000ff%22%7D%2C+%222%22%3A%7B%22color%22%3A%22%239900ff%22%7D%2C+%223%22%3A%7B%22color%22%3A%22%23a64d79%22%7D%2C+%224%22%3A%7B%22color%22%3A%22%23999999%22%7D%2C+%225%22%3A%7B%22color%22%3A%22%23000000%22%7D%2C+%226%22%3A%7B%22color%22%3A%22%23ff9900%22%7D%2C+%227%22%3A%7B%22color%22%3A%22%23ffff00%22%7D%2C+%228%22%3A%7B%22color%22%3A%22%2300ff00%22%7D%2C+%229%22%3A%7B%22color%22%3A%22%2300ffff%22%7D%7D&amp;width=500&amp;height=300"></iframe>
 </BODY>
 </HTML>
-
